@@ -47,3 +47,41 @@ echo "Please check the output above for any warnings or errors"
 
 # Extract the .rar file
 unar your_file.rar
+
+# Current location of the extracted files
+CURRENT_DIR="/app-portal/codecanyon-25416622-app-portal"
+# Server directories
+SERVER_ROOT_DIR="/var/www"  # This is likely the "root directory" they mean
+SERVER_PUBLIC_DIR="/var/www/html"
+
+# Move lapp folder to the directory above public_html
+echo "Moving lapp folder to /var/www..."
+sudo mv "${CURRENT_DIR}/lapp" "${SERVER_ROOT_DIR}/"
+
+# Move contents of public folder to public directory
+echo "Moving contents of public folder to /var/www/html..."
+sudo mv "${CURRENT_DIR}/public/"* "${SERVER_PUBLIC_DIR}/"
+
+echo "File movement complete!"
+
+# Optional: Remove empty directories and files that are no longer needed
+read -p "Do you want to remove the original directories and files? (y/n) " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Cleaning up..."
+    sudo rm -rf "${CURRENT_DIR}/public"
+    sudo rm -rf "${CURRENT_DIR}/documentation"
+    sudo rm -rf "${CURRENT_DIR}/update"
+    # Don't remove database.sql as it might be needed later
+    echo "Cleanup complete!"
+fi
+
+# Set appropriate permissions
+echo "Setting permissions..."
+sudo chown -R www-data:www-data "${SERVER_ROOT_DIR}/lapp"
+sudo chown -R www-data:www-data "${SERVER_PUBLIC_DIR}"
+sudo chmod -R 755 "${SERVER_ROOT_DIR}/lapp"
+sudo chmod -R 755 "${SERVER_PUBLIC_DIR}"
+
+echo "Script execution completed!"
