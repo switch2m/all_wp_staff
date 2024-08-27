@@ -9,6 +9,9 @@ sudo apt install -y php php-cli php-fpm php-bcmath php-mbstring php-xml php-comm
 # Install specific versions if needed
 sudo apt install -y php8.2-cli php8.2-fpm php8.2-bcmath php8.2-mbstring php8.2-xml php8.2-common
 
+# Install unar
+sudo apt install -y unar
+
 # Verify PHP installation
 if ! command -v php &> /dev/null
 then
@@ -41,3 +44,6 @@ done
 
 echo "Server requirements installation completed"
 echo "Please check the output above for any warnings or errors"
+
+# Extract the .rar file
+unar your_file.rar
