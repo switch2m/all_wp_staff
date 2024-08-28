@@ -6,7 +6,7 @@ Welcome to UnleachedRecipes, where passion for food meets the spirit of adventur
 
 ### Our Story
 
-UnleachedRecipes was born out of a happy accident and a dash of rebellion. It all started in the summer of 2019 when our founder, Sarah Chen, a software engineer by day and food enthusiast by night, found herself staring at an nearly empty pantry.
+UnleachedRecipes was born out of a happy accident and a dash of rebellion. It all started in the summer of 2019 when our founder, Sarah Chen, a software engineer by day and food enthusiast by night, found herself staring at a nearly empty pantry.
 
 With only a handful of seemingly mismatched ingredients and a growling stomach, Sarah decided to throw caution to the wind. She combined leftover quinoa, a lone sweet potato, some wilting spinach, and a forgotten jar of tahini into what she affectionately called her "Desperation Bowl."
 
@@ -24,15 +24,15 @@ At UnleachedRecipes, our mission is to empower home cooks to trust their instinc
 
 1. The best meals often come from improvisation
 2. Cooking should be fun, not stressful
-3. There's no such thing as a "cooking mistake" – only new discoveries
+3. There's no such thing as a "cooking mistake" – only discoveries
 4. Every kitchen, no matter how basic, holds the potential for amazing meals
 
 ### What We Offer
 
-- Flexible Recipes: Our recipes come with basic structures and lots of variation ideas, encouraging you to make each dish your own.
-- Pantry Challenges: Regular features that help you create meals from what you already have.
-- Community Creations: A platform for our users to share their own unleashed recipes and cooking experiments.
-- Technique Tutorials: Because understanding the 'why' behind cooking methods lets you improvise more confidently.
+- Flexible Recipes: Our recipes come with basic structures and many variation ideas, encouraging you to make each dish your own.
+- Pantry Challenges: These are regular features that help you create meals based on what you already have.
+- Community Creations: A platform for our users to share their unleashed recipes and cooking experiments.
+- Technique Tutorials: Understanding the 'why' behind cooking methods lets you improvise more confidently.
 
 ### Join Our Culinary Revolution
 
@@ -41,6 +41,8 @@ Whether you're a seasoned chef looking to break free from culinary constraints, 
 Let's celebrate the beauty of imperfection, the thrill of experimentation, and the joy of creating something uniquely delicious. After all, in the world of UnleachedRecipes, there are no rules – only endless possibilities.
 
 Welcome to our community. It's time to unleash your inner chef!
+
+
 
 
 
