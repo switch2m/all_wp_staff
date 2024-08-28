@@ -57,8 +57,8 @@ Depending on your location, you may have certain rights regarding your personal 
 
 - The right to access your personal information
 - The right to correct inaccurate information
-- The right to request deletion of your information
-- The right to object to or restrict processing of your information
+- The right to request the deletion of your information
+- The right to object to or restrict the processing of your information
 
 ## 7. Children's Privacy
 
@@ -70,7 +70,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 ## 9. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at:
+If you have any questions about this Privacy Policy, don't hesitate to get in touch with us at:
 
 [Your Contact Information]
 ************
