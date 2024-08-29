@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt install certbot python3-certbot-apache
-sudo certbot --apache -d unleashedrecipes.com -d www.unleashedrecipes.com
-systemctl stop apache2
-certbot certonly --standalone --preferred-challenges http -d unleashedrecipes.com,www.unleashedrecipes.com
-systemctl start apache2
-systemctl status apache2
+sudo certbot --apache -d mayssam.shop -d www.mayssam.shop
+sudo systemctl stop apache2
+certbot certonly --standalone --preferred-challenges http -d mayssam.shop,www.mayssam.shop
+sudo systemctl start apache2
+sudo systemctl status apache2
+  
