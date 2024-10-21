@@ -1,10 +1,14 @@
 #BACKUP AND RESTORE STEPS
+
 #BACKUP PROCESS
 - Identify the wordpress DB name mostly it would be "wordpress"
 - Navigate to your WordPress directory
-Run the following command
+
+Run the following command:
 sudo mysqldump -u root -p wordpress > flavorfull_db_backup.sql
 sudo tar -cvzf flavorfull_website_backup.tar.gz /var/www/html
+
+
 #RESTORE PROCESS 
 - Extract files from the backup to the /var/www/html (make sure to cleanup before if you have a website there already)
 - Set correct permissions
@@ -14,6 +18,7 @@ sudo tar -cvzf flavorfull_website_backup.tar.gz /var/www/html
 - Update site URL in the database
 - Restart Apache2 server
 
+Execute the following command:
 sudo tar -xzvf flavorfull_website_backup.tar.gz #and make sure to MOVE the WEBSITE FILES to /var/www/html
 sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/
