@@ -1,6 +1,6 @@
-#BACKUP AND RESTORE STEPS
+# BACKUP AND RESTORE STEPS
 
-#BACKUP PROCESS
+### BACKUP PROCESS
 - Identify the wordpress DB name mostly it would be "wordpress"
 - Navigate to your WordPress directory
 
@@ -10,7 +10,7 @@ sudo mysqldump -u root -p wordpress > flavorfull_db_backup.sql
 sudo tar -cvzf flavorfull_website_backup.tar.gz /var/www/html
 ```
 
-#RESTORE PROCESS 
+### RESTORE PROCESS 
 - Extract files from the backup to the /var/www/html (make sure to cleanup before if you have a website there already)
 - Set correct permissions
 - DROP the existing DB and create new wordpress DB
