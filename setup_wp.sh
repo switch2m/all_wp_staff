@@ -89,16 +89,3 @@ echo "WordPress installation completed!"
 echo "Please visit http://your_domain.com to complete the setup"
 
 
-ADDITIONAL USEFULL COMMANDS:
-# Make sure all required modules are enabled
-sudo a2enmod ssl
-sudo a2enmod headers
-sudo a2enmod rewrite
-sudo a2enmod expires
-sudo a2enmod deflate
-
-# Test the configuration
-sudo apache2ctl configtest
-
-# If test is successful, restart Apache
-sudo systemctl restart apache2
